@@ -4,7 +4,16 @@ var num2 = 5;
 function multiply(num1, num2) {
    let result = num1 * num2;
 
-   return result;
+   if (num1 > num2) {
+      console.log('jesli jest wiekszy od 5');
+   }
+   else (num1 < num2) {
+      console.log('jesli jest mniejsza od 5');
+   }
+   return num2;
+
+
+
 }
 
-console.log( multiply(2, 5) );
+console.log(multiply(2, 5));
